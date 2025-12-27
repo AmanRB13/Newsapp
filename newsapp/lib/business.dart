@@ -33,7 +33,7 @@ class _BusinesswidgetState extends State<Businesswidget> {
   Future<List> fetchnews() async {
     final response = await http.get(
       Uri.parse(
-        'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=11a88b5bf6004aa0868f1e5c91984998',
+        'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey',
       ),
     );
     final result = jsonDecode(response.body);
