@@ -44,6 +44,7 @@ class _TecnologypageState extends State<Tecnologypage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueGrey,
         title: const Text(
           'News app',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
