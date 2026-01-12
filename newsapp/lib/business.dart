@@ -44,6 +44,7 @@ class _BusinesswidgetState extends State<Businesswidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueGrey,
         title: const Text(
           'News app',
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
